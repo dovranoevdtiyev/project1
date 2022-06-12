@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import carousel from "../views/carousel.vue";
+import tailwind from "../views/tailwind.vue";
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: "/carousel",
     name: "carousel",
     component: carousel,
+  },
+  {
+    path: "/tailwind",
+    name: "tailwind",
+    component: tailwind,
   },
   {
     path: "/about",
